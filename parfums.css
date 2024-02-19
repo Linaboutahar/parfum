@@ -1,0 +1,275 @@
+body{
+    background-color: white;
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    overflow-x: hidden;
+}
+header{
+    height: 200px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 1100px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.kk{
+    border:10px solid black;
+    background-color:black;
+    border-radius: 5px;
+    height: 78px;
+    width: 1550px; 
+}
+
+li{
+    margin: 20px;
+    font-size: medium;
+    text-decoration: underline;
+    color: beige;
+    position: relative;
+    top: 30px;
+}
+img{
+    background-image:url("logo.jpg");
+    margin-left: 20px;
+    margin-top: 36px;
+
+}
+
+.ll{
+    display: flex;
+    animation-duration: 18s;
+    animation-name: mesparfums;
+    animation-iteration-count: infinite;
+    position: relative;
+    bottom: 60px;
+}
+@keyframes mesparfums {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+         transform: translateX(-900px);
+    }
+    50% {
+        transform: translateX(-2000px);
+    }
+    75%{
+        transform: translateX(-2800px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+#par{
+    width: 1600px;
+    height: 600px;
+    overflow: hidden;
+    
+}
+
+.oo h2{
+    font-size: 20px;
+}
+header img{
+    position: absolute;
+    top: 10px;
+}
+header ul{
+     justify-content: flex-end;
+}
+.row{
+    display: flex;
+    position: relative;
+    bottom: 480px;
+    right: 35px;
+}
+.oo:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+h3{
+    line-height: 10px;
+}
+h1{
+    font-family: fantasy;
+    margin-right: 30px;
+    font-size: 80px;
+}
+
+img{
+    margin-left: 30PX;
+}
+h2{
+   margin-left: 50px;
+   font-family: monospace;
+   font-size: 60px;
+   text-decoration: underline;
+}
+h3{
+    margin-left: 120px;
+}
+.li{
+    font-size:monospace ;
+    font-size: 60px;
+}
+h4{
+    text-decoration: line-through;
+    color: red;
+    margin-left: 30px;
+}
+.yy{
+    font-size: 52px;
+    color:black;
+    text-align: center;
+    font-family: oblique;
+    position: relative;
+    bottom: 70px;
+}
+.oo{
+    size: 20px;
+    margin-left: 30px;
+    
+}
+.oo:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.me{
+    font-size: 55px;
+    margin-left: 500px;
+    text-decoration: underline;
+    bottom: 480px;
+    position: relative;
+}
+    
+@keyframes rotation_481 {
+    0% {
+      transform: rotateZ(0deg);
+    }
+  
+    0% {
+      transform: rotateZ(360deg);
+    }
+}
+
+.bn{
+    font-style: italic;
+    font-size: 45px;
+    margin-left: 440px;
+    color: black;
+}
+.nm{
+    margin-left: 380px;
+    border: 7px solid gray;
+    size: cover;
+}
+.soldes-text {
+    font-size: 2em;
+    color: red; 
+    font-weight: bold;
+    animation: blink 1s infinite; 
+    position: relative;
+    left: 380px;
+}
+@keyframes blink {
+    0%, 49.9%, 100% {
+        opacity: 1;
+    }
+    50%, 99.9% {
+        opacity: 0;
+    }
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animated-image {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    animation: rotate 3s infinite linear;
+    margin-left: 60px;
+    position: relative;
+    top: 20px;
+  }
+  .image {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    animation: rotate 3s infinite linear;
+    margin-left: 60px;
+    position: relative;
+    top: 200px;
+  }
+  .an{
+      position: relative;
+      bottom: 300px;
+      margin-left: 250px;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .rott{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    animation: rotate 3s infinite linear;
+    left: 1420px;
+    position: relative;
+    bottom: 750px;
+  }
+  .rot {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    animation: rotate 3s infinite linear;
+    left: 1420px;
+    position: relative;
+    bottom: 600px;
+  }
+  footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 70px;
+  }
+  
+  .media a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .media img {
+    width: 40px; 
+    height: 40px;
+
+  }
+  .im{
+    color:rgb(218, 189, 152);
+    font-size: 25px;
+  }
+  
+
